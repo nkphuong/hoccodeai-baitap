@@ -12,7 +12,7 @@ client = OpenAI(
 ai_model="gpt-4o-mini"
 is_stream=True
 
-print('Please input your question:')
+print('Please input your question about your aquarium:')
 q = input()
 
 stream = client.chat.completions.create(
